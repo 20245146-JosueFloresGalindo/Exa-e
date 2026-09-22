@@ -1,78 +1,62 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f3e9;
-    color: #1d1b1b;
-}
-
-header {
+.Encabesado {
+    max-width: 100%;
     background-color: #b5121b;
-    padding: 16px 40px;
+    color: white;
+
+    
+}
+.texto{
+    text-decoration: none;
+
 }
 
-header h1 {
-    margin: 0;
-    font-size: 22px;
-    color: #ffffff;
-}
+.Viñeta {
+    background-position: left;
+    width: 250px;  height: 50px;
 
-.cotizador {
+}
+.centrar{
+    background-color: antiquewhite;
+}
+.fondo {
+    background-image: url("C:\Users\O23210\Downloads\examen Josue Flores Galindo\PW_2026-2_Ev01_B_recursos_alumnos\pregunta1\imagenes\banner.png");
+}
+.imagenes{
     display: flex;
-    flex-direction: column;
-    width: 380px;
-    margin: 40px auto;
-    padding: 28px;
-    background-color: #ffffff;
-    border-radius: 12px;
+    max-width: 100%;
+
+    
+}
+.imagen1{
+    padding: 10px 20px;
+
 }
 
-.cotizador h2 {
-    margin: 0 0 20px 0;
-    font-size: 22px;
-    color: #b5121b;
+.imagen2{
+    padding: 10px 20px;
+
 }
 
-label {
-    margin-bottom: 6px;
-    font-size: 14px;
-    font-weight: bold;
+.imagen3{
+    padding: 10px 20px;
+
+}
+.imagen4{
+    padding: 10px 20px;
+
+}
+.color{ 
+    text-align: center;
+    color: brown;
 }
 
-input, select {
-    margin-bottom: 18px;
-    padding: 10px;
-    font-size: 15px;
-    font-family: Arial, sans-serif;
-    border: 1px solid #d6cfc0;
-    border-radius: 8px;
+.color2{ 
+    color: rgba(221, 181, 5, 0.966);
 }
-
-input:focus, select:focus {
-    border-color: #b5121b;
-    outline: 2px solid #ffd60a;
+.color3{
+    color: rgba(240, 255, 255, 0.644);
 }
+body{
+    font-family:Arial, sans-serif;
 
-button {
-    padding: 12px;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: Arial, sans-serif;
-    color: #1d1b1b;
-    background-color: #ffd60a;
-    border: none;
-    border-radius: 24px;
-    cursor: pointer;
-}
-
-.resultado {
-    margin-top: 22px;
-    padding: 16px;
-    font-size: 15px;
-    line-height: 1.7;
-    background-color: #f7f3e9;
-    border-radius: 8px;
 }

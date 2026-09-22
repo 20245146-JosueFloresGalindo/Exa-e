@@ -1,50 +1,66 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Viñeta Cómics · Cotizador de pedido</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header>
-        <h1>Viñeta Cómics</h1>
+    <header class="Encabesado">
+        <img src="C:\Users\O23210\Downloads\examen Josue Flores Galindo\PW_2026-2_Ev01_B_recursos_alumnos\pregunta1\imagenes\logo.png" alt="Viñeta logo" class="Viñeta">
+        
+        <ul class="texto">
+            <li>Comics</li>
+            <li>Manga</li>
+            <li>Novelas Graficas</li>
+            <li>Tiendas</li>
+        </ul>
+        
     </header>
-
-    <main>
-        <section class="cotizador">
-            <h2>Cotizador de pedido</h2>
-
-            <label for="precio">Precio del cómic (S/)</label>
-            <input type="number" id="precio" min="0" step="0.01" placeholder="35.00">
-
-            <label for="cantidad">Cantidad de ejemplares</label>
-            <input type="number" id="cantidad" min="1" step="1" placeholder="1">
-
-            <label for="envio">Tipo de entrega</label>
-            <select id="envio">
-                <option value="0">Recojo en tienda (S/ 0.00)</option>
-                <option value="10">Envío a Lima (S/ 10.00)</option>
-                <option value="18">Envío a provincias (S/ 18.00)</option>
-            </select>
-
-            <button type="button" id="btnCotizar">Cotizar pedido</button>
-
-            <div id="resultado" class="resultado">
-                Complete los datos y presione «Cotizar pedido».
+    <section class="fondo">
+            <h3 class="color2">Ediccion de coleccion</h3>
+            <div>
+                <H1>CENTINELA</H1>
+                <h2>la guardiana regresa</H2>
+                <p class="color3">La saga completa en seis tomos de tapa dura. con portadas alternativas <br> y paginas  ineditas. Preventa  disponibles  hasta el 30  de setiembre.</p>
+                <br>
+                <button>Comprar ahora</button>
             </div>
-        </section>
-    </main>
-    <script>
-        function btnCotizar{
-            number=number(document.getElementById("#precio").value);
-            number=number(document.getElementById("#cantidad").value);
-            Option=number(document.getElementById("#envio").value);
+    </section>
 
-            resultado = #precio * #cantidad + #envio;
+    
+    <Section class="centrar">
+        <h3 class="color">Los más vendidos</h3>
+ 
+        <div class="Imagenes">
+            <DIV class="imagen1">
+                <img src="C:\Users\O23210\Downloads\examen Josue Flores Galindo\PW_2026-2_Ev01_B_recursos_alumnos\pregunta1\imagenes\centinela.png" alt="centinela" >
+                    <h3><b>Centinela #1</b></h3>
+                    <p>superHérores</p>
+                <h4>S/35.00</h4>
+            </DIV>
+            <DIV class="imagen2">
+                <img src="C:\Users\O23210\Downloads\examen Josue Flores Galindo\PW_2026-2_Ev01_B_recursos_alumnos\pregunta1\imagenes\ronin-de-neon.png" alt="Ronin de Neón">
+                    <h3><b>Ronin de Neón #7</b></h3>
+                    <p>Ciencia Ficcion</p>
+                <h4>S/42.00</h4>
+            </DIV>
+            <DIV class="imagen3">
+                <img src="C:\Users\O23210\Downloads\examen Josue Flores Galindo\PW_2026-2_Ev01_B_recursos_alumnos\pregunta1\imagenes\detective-buho.png" alt="Detective-buho">
+                    <h3><b>Detective-buho #3</b></h3>
+                    <p>Misterio</p>
+                    <h4>S/29.00</h4>
+            </DIV>
+            <DIV class="imagen4">
+                <img src="C:\Users\O23210\Downloads\examen Josue Flores Galindo\PW_2026-2_Ev01_B_recursos_alumnos\pregunta1\imagenes\astro-gato.png" alt="Detective-buho">
+                    <h3><b>Astro Gato #12</b></h3>
+                    <p>infantil</p>
+                    <h4>S/25.00</h4>
+            </DIV>
 
-            document.getElementById("resultado").value= "resultado" +resultado;
-        }
-    </script>
+        </div>
+   </Section>
+
 </body>
 </html>
